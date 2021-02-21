@@ -3,6 +3,15 @@
 #include "mkutils.hpp"
 #include <iostream>
 
+/*
+ * The code for the LowpassGate emulation here is based on the work of Julian
+ * Parker and Stefano D'angelo and their paper "A Digital Model of the Buchla
+ * Lowpass-Gate" from DAFX-13, 2013 and the accompanying Max code.
+ *
+ * See the paper here for more information:
+ * https://www.dafx.de/paper-archive/2013/papers/44.dafx2013_submission_56.pdf
+ */
+
 namespace lpg {
 
 // -------------------------------------------
